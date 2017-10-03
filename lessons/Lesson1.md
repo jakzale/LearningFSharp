@@ -18,7 +18,13 @@ $ cd LearningFSharp
 $ git remote add upstream https://github.com/jakzale/LearningFSharp.git
 ```
 
-## Step 4: Fetch Upstream to see if it works
+## Step 4: List remotes to see if everything is OK
+
+```sh
+$ git remote -v
+```
+
+## Step 5: Fetch Upstream
 
 ```sh
 $ git fetch upstream
