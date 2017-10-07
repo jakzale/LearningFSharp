@@ -48,7 +48,7 @@ package, however the package is missing from the
 You should add the missing package using the dotnet command
 
 ```sh
-$ dotnet src/LearningMsgPack/LearningMsgPack.fsproj add package MessagePack
+$ dotnet add src/LearningMsgPack package MessagePack
 ```
 
 After that you should verify if everything works by building the whole solution:
